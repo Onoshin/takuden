@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6BB4082018349909008F7A2E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BB4081F18349909008F7A2E /* UIKit.framework */; };
+		6BB4082218349909008F7A2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BB4082118349909008F7A2E /* Foundation.framework */; };
+		6BB4082418349909008F7A2E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BB4082318349909008F7A2E /* CoreGraphics.framework */; };
+		6BB4082A18349909008F7A2E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6BB4082818349909008F7A2E /* InfoPlist.strings */; };
+		6BB4082C18349909008F7A2E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB4082B18349909008F7A2E /* main.m */; };
+		6BB4083018349909008F7A2E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB4082F18349909008F7A2E /* AppDelegate.m */; };
+		6BB4083218349909008F7A2E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BB4083118349909008F7A2E /* Default.png */; };
+		6BB4083418349909008F7A2E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BB4083318349909008F7A2E /* Default@2x.png */; };
+		6BB4083618349909008F7A2E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BB4083518349909008F7A2E /* Default-568h@2x.png */; };
+		6BB4083918349909008F7A2E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BB4083718349909008F7A2E /* MainStoryboard.storyboard */; };
+		6BB4083C18349909008F7A2E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB4083B18349909008F7A2E /* ViewController.m */; };
+		6BB4084418349909008F7A2E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BB4084318349909008F7A2E /* SenTestingKit.framework */; };
+		6BB4084518349909008F7A2E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BB4081F18349909008F7A2E /* UIKit.framework */; };
+		6BB4084618349909008F7A2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BB4082118349909008F7A2E /* Foundation.framework */; };
+		6BB4084E18349909008F7A2E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6BB4084C18349909008F7A2E /* InfoPlist.strings */; };
+		6BB4085118349909008F7A2E /* takudenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB4085018349909008F7A2E /* takudenTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6BB4084718349909008F7A2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BB4081418349909008F7A2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BB4081B18349909008F7A2E;
+			remoteInfo = takuden;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6BB4081C18349909008F7A2E /* takuden.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = takuden.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BB4081F18349909008F7A2E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6BB4082118349909008F7A2E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6BB4082318349909008F7A2E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6BB4082718349909008F7A2E /* takuden-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "takuden-Info.plist"; sourceTree = "<group>"; };
+		6BB4082918349909008F7A2E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6BB4082B18349909008F7A2E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6BB4082D18349909008F7A2E /* takuden-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "takuden-Prefix.pch"; sourceTree = "<group>"; };
+		6BB4082E18349909008F7A2E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6BB4082F18349909008F7A2E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6BB4083118349909008F7A2E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		6BB4083318349909008F7A2E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		6BB4083518349909008F7A2E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6BB4083818349909008F7A2E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		6BB4083A18349909008F7A2E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6BB4083B18349909008F7A2E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6BB4084218349909008F7A2E /* takudenTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = takudenTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BB4084318349909008F7A2E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		6BB4084B18349909008F7A2E /* takudenTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "takudenTests-Info.plist"; sourceTree = "<group>"; };
+		6BB4084D18349909008F7A2E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6BB4084F18349909008F7A2E /* takudenTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = takudenTests.h; sourceTree = "<group>"; };
+		6BB4085018349909008F7A2E /* takudenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = takudenTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BB4081918349909008F7A2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BB4082018349909008F7A2E /* UIKit.framework in Frameworks */,
+				6BB4082218349909008F7A2E /* Foundation.framework in Frameworks */,
+				6BB4082418349909008F7A2E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BB4083E18349909008F7A2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BB4084418349909008F7A2E /* SenTestingKit.framework in Frameworks */,
+				6BB4084518349909008F7A2E /* UIKit.framework in Frameworks */,
+				6BB4084618349909008F7A2E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BB4081318349909008F7A2E = {
+			isa = PBXGroup;
+			children = (
+				6BB4082518349909008F7A2E /* takuden */,
+				6BB4084918349909008F7A2E /* takudenTests */,
+				6BB4081E18349909008F7A2E /* Frameworks */,
+				6BB4081D18349909008F7A2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BB4081D18349909008F7A2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BB4081C18349909008F7A2E /* takuden.app */,
+				6BB4084218349909008F7A2E /* takudenTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BB4081E18349909008F7A2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BB4081F18349909008F7A2E /* UIKit.framework */,
+				6BB4082118349909008F7A2E /* Foundation.framework */,
+				6BB4082318349909008F7A2E /* CoreGraphics.framework */,
+				6BB4084318349909008F7A2E /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6BB4082518349909008F7A2E /* takuden */ = {
+			isa = PBXGroup;
+			children = (
+				6BB4082E18349909008F7A2E /* AppDelegate.h */,
+				6BB4082F18349909008F7A2E /* AppDelegate.m */,
+				6BB4083718349909008F7A2E /* MainStoryboard.storyboard */,
+				6BB4083A18349909008F7A2E /* ViewController.h */,
+				6BB4083B18349909008F7A2E /* ViewController.m */,
+				6BB4082618349909008F7A2E /* Supporting Files */,
+			);
+			path = takuden;
+			sourceTree = "<group>";
+		};
+		6BB4082618349909008F7A2E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BB4082718349909008F7A2E /* takuden-Info.plist */,
+				6BB4082818349909008F7A2E /* InfoPlist.strings */,
+				6BB4082B18349909008F7A2E /* main.m */,
+				6BB4082D18349909008F7A2E /* takuden-Prefix.pch */,
+				6BB4083118349909008F7A2E /* Default.png */,
+				6BB4083318349909008F7A2E /* Default@2x.png */,
+				6BB4083518349909008F7A2E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6BB4084918349909008F7A2E /* takudenTests */ = {
+			isa = PBXGroup;
+			children = (
+				6BB4084F18349909008F7A2E /* takudenTests.h */,
+				6BB4085018349909008F7A2E /* takudenTests.m */,
+				6BB4084A18349909008F7A2E /* Supporting Files */,
+			);
+			path = takudenTests;
+			sourceTree = "<group>";
+		};
+		6BB4084A18349909008F7A2E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BB4084B18349909008F7A2E /* takudenTests-Info.plist */,
+				6BB4084C18349909008F7A2E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BB4081B18349909008F7A2E /* takuden */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BB4085418349909008F7A2E /* Build configuration list for PBXNativeTarget "takuden" */;
+			buildPhases = (
+				6BB4081818349909008F7A2E /* Sources */,
+				6BB4081918349909008F7A2E /* Frameworks */,
+				6BB4081A18349909008F7A2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = takuden;
+			productName = takuden;
+			productReference = 6BB4081C18349909008F7A2E /* takuden.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6BB4084118349909008F7A2E /* takudenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BB4085718349909008F7A2E /* Build configuration list for PBXNativeTarget "takudenTests" */;
+			buildPhases = (
+				6BB4083D18349909008F7A2E /* Sources */,
+				6BB4083E18349909008F7A2E /* Frameworks */,
+				6BB4083F18349909008F7A2E /* Resources */,
+				6BB4084018349909008F7A2E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BB4084818349909008F7A2E /* PBXTargetDependency */,
+			);
+			name = takudenTests;
+			productName = takudenTests;
+			productReference = 6BB4084218349909008F7A2E /* takudenTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BB4081418349909008F7A2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "university of kitakyushu";
+			};
+			buildConfigurationList = 6BB4081718349909008F7A2E /* Build configuration list for PBXProject "takuden" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6BB4081318349909008F7A2E;
+			productRefGroup = 6BB4081D18349909008F7A2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BB4081B18349909008F7A2E /* takuden */,
+				6BB4084118349909008F7A2E /* takudenTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BB4081A18349909008F7A2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BB4082A18349909008F7A2E /* InfoPlist.strings in Resources */,
+				6BB4083218349909008F7A2E /* Default.png in Resources */,
+				6BB4083418349909008F7A2E /* Default@2x.png in Resources */,
+				6BB4083618349909008F7A2E /* Default-568h@2x.png in Resources */,
+				6BB4083918349909008F7A2E /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BB4083F18349909008F7A2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BB4084E18349909008F7A2E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6BB4084018349909008F7A2E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BB4081818349909008F7A2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BB4082C18349909008F7A2E /* main.m in Sources */,
+				6BB4083018349909008F7A2E /* AppDelegate.m in Sources */,
+				6BB4083C18349909008F7A2E /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BB4083D18349909008F7A2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BB4085118349909008F7A2E /* takudenTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6BB4084818349909008F7A2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BB4081B18349909008F7A2E /* takuden */;
+			targetProxy = 6BB4084718349909008F7A2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6BB4082818349909008F7A2E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BB4082918349909008F7A2E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6BB4083718349909008F7A2E /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BB4083818349909008F7A2E /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		6BB4084C18349909008F7A2E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BB4084D18349909008F7A2E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6BB4085218349909008F7A2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6BB4085318349909008F7A2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BB4085518349909008F7A2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "takuden/takuden-Prefix.pch";
+				INFOPLIST_FILE = "takuden/takuden-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6BB4085618349909008F7A2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "takuden/takuden-Prefix.pch";
+				INFOPLIST_FILE = "takuden/takuden-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6BB4085818349909008F7A2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/takuden.app/takuden";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "takuden/takuden-Prefix.pch";
+				INFOPLIST_FILE = "takudenTests/takudenTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		6BB4085918349909008F7A2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/takuden.app/takuden";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "takuden/takuden-Prefix.pch";
+				INFOPLIST_FILE = "takudenTests/takudenTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BB4081718349909008F7A2E /* Build configuration list for PBXProject "takuden" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BB4085218349909008F7A2E /* Debug */,
+				6BB4085318349909008F7A2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BB4085418349909008F7A2E /* Build configuration list for PBXNativeTarget "takuden" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BB4085518349909008F7A2E /* Debug */,
+				6BB4085618349909008F7A2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6BB4085718349909008F7A2E /* Build configuration list for PBXNativeTarget "takudenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BB4085818349909008F7A2E /* Debug */,
+				6BB4085918349909008F7A2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BB4081418349909008F7A2E /* Project object */;
+}
