@@ -8,6 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+    IBOutlet UILabel *result;
+    BOOL startInput;
+    double currentValue;
+    int operation;
+}
 
+-(IBAction)num_down:(id)sender;
+-(IBAction)clear_down:(id)sender;
+-(IBAction)culc_down:(id)sender;
+-(IBAction)equal_down:(id)sender;
 @end
+
